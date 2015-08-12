@@ -16,6 +16,6 @@ Bytes Recieved, Source and Destination IP, AVC App Name (application i.e. chrome
 <b>Convert_CX_to_DB.py</b><br />
 My attempt at converting essentially CSV into SQLite3 format (attempting to find alternative methods than Splunk)
 
-<b>CX-Met-OFFNET_Rewrite.py</b><br /> - If your ISP has Offnet/Onnet settings where you have free data and paid data deals, this script would read through UTC Values provided by the CX Event Generation Time and pull out all lines and write to a new file for the given time period.
+<b>CX-Met-OFFNET_Rewrite.py</b><br /> If your current internet connection is based on a peak/non-peak period of usage, this script would read through UTC Values provided by the CX Event Generation Time and pull out all lines and write to a new file for the given time period, i.e. if you want to analyse peak time only.
 
 I also have some Netflow rewriters but they're specific to Netflow provided by the ISP at the time so I have chosen not to upload these here.
